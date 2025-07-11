@@ -1,7 +1,11 @@
-body {
-    font-family: sans-serif;
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    
 }
 
 .navbar{
@@ -196,4 +200,45 @@ a:hover {
     margin-top: 0;
     color: rgba(0, 0, 0, 0.545);
 
+}
+
+/* new00 */
+.better {
+background-color: aliceblue;
+border-radius: 8px;
+margin: 10px 150px;
+padding: 40px 60px 40px 60px;
+}
+
+.focus1 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.focus2 {
+    font-size: 13px;
+    margin-top: 8px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.436);
+    margin-bottom: 20px;
+}
+
+.box3 {
+    margin: auto;
+    display: block;
+    width: 136px;
+    text-align: center;
+}
+
+.faz {
+    align-items: center;
+    margin-top: 0px;
+}
+
+.fazimg {
+    border-radius: 30px;
+    align-items: center;
+    margin-top: 50px;
 }
