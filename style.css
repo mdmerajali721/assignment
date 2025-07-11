@@ -5,7 +5,6 @@
 
 body {
     font-family: sans-serif;
-    
 }
 
 .navbar{
@@ -242,3 +241,59 @@ padding: 40px 60px 40px 60px;
     align-items: center;
     margin-top: 50px;
 }
+
+/* bb00 */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 150px 40px 150px;
+  align-items: center;
+  background-color: white;
+  padding: 40px;
+}
+
+.getin {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.formbox {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+  margin: 12px 0 4px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+input,
+textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  background-color: #fff;
+}
+
+button {
+  width: 400px;  
+  margin-top: 20px;
+  padding: 14px;
+  font-size: 16px;
+  background-color: #4e4cf0;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: coral;
+}
+
